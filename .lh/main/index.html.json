@@ -1,0 +1,322 @@
+{
+    "sourceFile": "main/index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 76,
+            "patches": [
+                {
+                    "date": 1674835729241,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1674836584579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+<html lang=\"pl-PL\">\r\n+<head>\r\n+  <title>To jest tytuł</title>\r\n+  <meta charset=\"UTF-8\">\r\n+  <meta name=\"description\" content=\"opis\">\r\n+</head>\r\n+<body>\r\n+  <h1>Przykład</h1>\r\n+</body>\r\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674836672333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <html lang=\"pl-PL\">\r\n <head>\r\n-  <title>To jest tytuł</title>\r\n+  <title>Let's Shine! Photography</title>\r\n   <meta charset=\"UTF-8\">\r\n   <meta name=\"description\" content=\"opis\">\r\n </head>\r\n <body>\r\n"
+                },
+                {
+                    "date": 1674836861192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,6 @@\n </head>\r\n <body>\r\n   <h1>Przykład</h1>\r\n </body>\r\n-</html>\n\\ No newline at end of file\n+</html>\r\n+\r\n"
+                },
+                {
+                    "date": 1674836899785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,12 @@\n-<html lang=\"pl-PL\">\r\n+<!DOCTYPE html>\r\n+<html lang=\"en\">\r\n <head>\r\n-  <title>Let's Shine! Photography</title>\r\n   <meta charset=\"UTF-8\">\r\n-  <meta name=\"description\" content=\"opis\">\r\n+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n+  <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n+  <title>Let's shine! Photography</title>\r\n </head>\r\n <body>\r\n-  <h1>Przykład</h1>\r\n+\r\n </body>\r\n-</html>\r\n-\r\n+</html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674837058065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,9 @@\n   <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n   <title>Let's shine! Photography</title>\r\n </head>\r\n <body>\r\n-\r\n+    <section class=\"navigation\">\r\n+        \r\n+    </section>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674837214105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,8 @@\n   <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n   <title>Let's shine! Photography</title>\r\n </head>\r\n <body>\r\n-    <section class=\"navigation\">\r\n-        \r\n-    </section>\r\n+    <header></header>\r\n+    \r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674837269037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,6 @@\n   <title>Let's shine! Photography</title>\r\n </head>\r\n <body>\r\n     <header></header>\r\n-    \r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674837336577,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,24 @@\n   <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n   <title>Let's shine! Photography</title>\r\n </head>\r\n <body>\r\n-    <header></header>\r\n+    <header class=\"page-header\">\r\n+        <div class=\"container\">\r\n+\r\n+          <a href=\"/\" class=\"page-logo\">\r\n+            <img src=\"\" alt=\"Let's shine!\">\r\n+          </a>\r\n+\r\n+          <nav class=\"page-nav\">\r\n+            <ul class=\"page-nav-list\">\r\n+              <li><a href=\"#\">Strona główna</a></li>\r\n+              <li><a href=\"#\">Informacje</a></li>\r\n+              <li><a href=\"#\">O akcji</a></li>\r\n+              <li><a href=\"#\"Contact</a></li>\r\n+            </ul>\r\n+          </nav>\r\n+\r\n+        </div>\r\n+      </header>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674837351166,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             <ul class=\"page-nav-list\">\r\n               <li><a href=\"#\">Strona główna</a></li>\r\n               <li><a href=\"#\">Informacje</a></li>\r\n               <li><a href=\"#\">O akcji</a></li>\r\n-              <li><a href=\"#\"Contact</a></li>\r\n+              <li><a href=\"#\">Kontakt</a></li>\r\n             </ul>\r\n           </nav>\r\n \r\n         </div>\r\n"
+                },
+                {
+                    "date": 1674837411358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n           </a>\r\n \r\n           <nav class=\"page-nav\">\r\n             <ul class=\"page-nav-list\">\r\n-              <li><a href=\"#\">Strona główna</a></li>\r\n+              <li><a href=\"#\">About</a></li>\r\n               <li><a href=\"#\">Informacje</a></li>\r\n               <li><a href=\"#\">O akcji</a></li>\r\n               <li><a href=\"#\">Kontakt</a></li>\r\n             </ul>\r\n"
+                },
+                {
+                    "date": 1674837462569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,11 +16,11 @@\n \r\n           <nav class=\"page-nav\">\r\n             <ul class=\"page-nav-list\">\r\n               <li><a href=\"#\">About</a></li>\r\n-              <li><a href=\"#\">Informacje</a></li>\r\n-              <li><a href=\"#\">O akcji</a></li>\r\n-              <li><a href=\"#\">Kontakt</a></li>\r\n+              <li><a href=\"#\">Portfolio</a></li>\r\n+              <li><a href=\"#\">Offer</a></li>\r\n+              <li><a href=\"#\">Contact</a></li>\r\n             </ul>\r\n           </nav>\r\n \r\n         </div>\r\n"
+                },
+                {
+                    "date": 1674837543831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,6 +24,10 @@\n           </nav>\r\n \r\n         </div>\r\n       </header>\r\n+\r\n+      <section class=\"banner\">\r\n+        \r\n+      </section>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674837584920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,9 @@\n         </div>\r\n       </header>\r\n \r\n       <section class=\"banner\">\r\n-        \r\n+        <h1 class=\"banner__title\"></h1>\r\n+        <p class=\"banner_text\"></p>\r\n       </section>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674837596297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,8 @@\n       </header>\r\n \r\n       <section class=\"banner\">\r\n         <h1 class=\"banner__title\"></h1>\r\n-        <p class=\"banner_text\"></p>\r\n+        <p class=\"banner_text lorem\"></p>\r\n       </section>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674837654202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n         </div>\r\n       </header>\r\n \r\n       <section class=\"banner\">\r\n-        <h1 class=\"banner__title\"></h1>\r\n-        <p class=\"banner_text lorem\"></p>\r\n+        <h1 class=\"banner__title\">Title</h1>\r\n+        <p class=\"banner_text\">Lorem ipsum dolor sit amet consectetur, adipisicing elit Ducimus mollitia iure veritatis amet soluta unde labore deleniti rerum eveniet rem!</p>\r\n       </section>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674837686806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,6 +29,8 @@\n       <section class=\"banner\">\r\n         <h1 class=\"banner__title\">Title</h1>\r\n         <p class=\"banner_text\">Lorem ipsum dolor sit amet consectetur, adipisicing elit Ducimus mollitia iure veritatis amet soluta unde labore deleniti rerum eveniet rem!</p>\r\n       </section>\r\n+\r\n+      \r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674837706816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,7 +30,13 @@\n         <h1 class=\"banner__title\">Title</h1>\r\n         <p class=\"banner_text\">Lorem ipsum dolor sit amet consectetur, adipisicing elit Ducimus mollitia iure veritatis amet soluta unde labore deleniti rerum eveniet rem!</p>\r\n       </section>\r\n \r\n-      \r\n+      <main class=\"page-content\">\r\n+        <div class=\"container\">\r\n+          <article></article>\r\n+          <article></article>\r\n+          <article></article>\r\n+        </div>\r\n+      </main>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674837755208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,11 +32,11 @@\n       </section>\r\n \r\n       <main class=\"page-content\">\r\n         <div class=\"container\">\r\n-          <article></article>\r\n-          <article></article>\r\n-          <article></article>\r\n+          <article class=\"article\"></article>\r\n+          <article class=\"article\"></article>\r\n+          <article class=\"article\"></article>\r\n         </div>\r\n       </main>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674838009109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n   <meta charset=\"UTF-8\">\r\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n   <title>Let's shine! Photography</title>\r\n+  \r\n </head>\r\n <body>\r\n     <header class=\"page-header\">\r\n         <div class=\"container\">\r\n"
+                },
+                {
+                    "date": 1674838025983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,11 @@\n   <meta charset=\"UTF-8\">\r\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n   <title>Let's shine! Photography</title>\r\n-  \r\n+  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n+  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n+  <link href=\"https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap\" rel=\"stylesheet\">\r\n </head>\r\n <body>\r\n     <header class=\"page-header\">\r\n         <div class=\"container\">\r\n"
+                },
+                {
+                    "date": 1674838321713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n   <title>Let's shine! Photography</title>\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n   <link href=\"https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap\" rel=\"stylesheet\">\r\n+  \r\n </head>\r\n <body>\r\n     <header class=\"page-header\">\r\n         <div class=\"container\">\r\n"
+                },
+                {
+                    "date": 1674838330353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,11 @@\n   <title>Let's shine! Photography</title>\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n   <link href=\"https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap\" rel=\"stylesheet\">\r\n-  \r\n+  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n+  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n+  <link href=\"https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap\" rel=\"stylesheet\">\r\n </head>\r\n <body>\r\n     <header class=\"page-header\">\r\n         <div class=\"container\">\r\n"
+                },
+                {
+                    "date": 1674839254607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n   <meta charset=\"UTF-8\">\r\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n   <title>Let's shine! Photography</title>\r\n+  <link rel=\"stylesheet\" href.css\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n   <link href=\"https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap\" rel=\"stylesheet\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n"
+                },
+                {
+                    "date": 1674839267822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   <meta charset=\"UTF-8\">\r\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n   <title>Let's shine! Photography</title>\r\n-  <link rel=\"stylesheet\" href.css\">\r\n+  <link rel=\"stylesheet\" href=\"../reset.css\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n   <link href=\"https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap\" rel=\"stylesheet\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n"
+                },
+                {
+                    "date": 1674839302369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n   <title>Let's shine! Photography</title>\r\n   <link rel=\"stylesheet\" href=\"../reset.css\">\r\n+  <link rel=\"stylesheet\" href=\"scss/main.scss\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n   <link href=\"https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap\" rel=\"stylesheet\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n"
+                },
+                {
+                    "date": 1674839427959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,8 @@\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n   <title>Let's shine! Photography</title>\r\n   <link rel=\"stylesheet\" href=\"../reset.css\">\r\n-  <link rel=\"stylesheet\" href=\"scss/main.scss\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n   <link href=\"https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap\" rel=\"stylesheet\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n"
+                },
+                {
+                    "date": 1674839486440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n   <title>Let's shine! Photography</title>\r\n   <link rel=\"stylesheet\" href=\"../reset.css\">\r\n+  <link rel=\"stylesheet\" href=\"../scss/main.scss\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n   <link href=\"https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap\" rel=\"stylesheet\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n"
+                },
+                {
+                    "date": 1674839539949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n   <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n   <title>Let's shine! Photography</title>\r\n   <link rel=\"stylesheet\" href=\"../reset.css\">\r\n+  <link rel=\"stylesheet\" href=\"style.css\">\r\n   <link rel=\"stylesheet\" href=\"../scss/main.scss\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n   <link href=\"https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap\" rel=\"stylesheet\">\r\n"
+                },
+                {
+                    "date": 1674843907175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     <header class=\"page-header\">\r\n         <div class=\"container\">\r\n \r\n           <a href=\"/\" class=\"page-logo\">\r\n-            <img src=\"\" alt=\"Let's shine!\">\r\n+            <img src=\"/pictures/logo_photographer_color.svg\" alt=\"Let's shine!\">\r\n           </a>\r\n \r\n           <nav class=\"page-nav\">\r\n             <ul class=\"page-nav-list\">\r\n"
+                },
+                {
+                    "date": 1674843983659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     <header class=\"page-header\">\r\n         <div class=\"container\">\r\n \r\n           <a href=\"/\" class=\"page-logo\">\r\n-            <img src=\"/pictures/logo_photographer_color.svg\" alt=\"Let's shine!\">\r\n+            <img src=\"/pictures/logo_photographer_color.png\" alt=\"Let's shine!\">\r\n           </a>\r\n \r\n           <nav class=\"page-nav\">\r\n             <ul class=\"page-nav-list\">\r\n"
+                },
+                {
+                    "date": 1674844012317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     <header class=\"page-header\">\r\n         <div class=\"container\">\r\n \r\n           <a href=\"/\" class=\"page-logo\">\r\n-            <img src=\"/pictures/logo_photographer_color.png\" alt=\"Let's shine!\">\r\n+            <img src=\"../pictures/logo_photographer_color.png\" alt=\"Let's shine!\">\r\n           </a>\r\n \r\n           <nav class=\"page-nav\">\r\n             <ul class=\"page-nav-list\">\r\n"
+                },
+                {
+                    "date": 1674844033080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     <header class=\"page-header\">\r\n         <div class=\"container\">\r\n \r\n           <a href=\"/\" class=\"page-logo\">\r\n-            <img src=\"../pictures/logo_photographer_color.png\" alt=\"Let's shine!\">\r\n+            <img src=\"\" alt=\"Let's shine!\">\r\n           </a>\r\n \r\n           <nav class=\"page-nav\">\r\n             <ul class=\"page-nav-list\">\r\n"
+                },
+                {
+                    "date": 1674844046163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     <header class=\"page-header\">\r\n         <div class=\"container\">\r\n \r\n           <a href=\"/\" class=\"page-logo\">\r\n-            <img src=\"\" alt=\"Let's shine!\">\r\n+            <img src=\"../pictures/logo_photographer_color.png\" alt=\"Let's shine!\">\r\n           </a>\r\n \r\n           <nav class=\"page-nav\">\r\n             <ul class=\"page-nav-list\">\r\n"
+                },
+                {
+                    "date": 1674844070825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     <header class=\"page-header\">\r\n         <div class=\"container\">\r\n \r\n           <a href=\"/\" class=\"page-logo\">\r\n-            <img src=\"../pictures/logo_photographer_color.png\" alt=\"Let's shine!\">\r\n+            <img src=\"../pictures/logo_photographer_color.png\" class=\"logo\" alt=\"Let's shine!\">\r\n           </a>\r\n \r\n           <nav class=\"page-nav\">\r\n             <ul class=\"page-nav-list\">\r\n"
+                },
+                {
+                    "date": 1674844124756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     <header class=\"page-header\">\r\n         <div class=\"container\">\r\n \r\n           <a href=\"/\" class=\"page-logo\">\r\n-            <img src=\"../pictures/logo_photographer_color.png\" class=\"logo\" alt=\"Let's shine!\">\r\n+            <img src=\"../pictures/logo_photographer_color.svg\" class=\"logo\" alt=\"Let's shine!\">\r\n           </a>\r\n \r\n           <nav class=\"page-nav\">\r\n             <ul class=\"page-nav-list\">\r\n"
+                },
+                {
+                    "date": 1674844632507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     <header class=\"page-header\">\r\n         <div class=\"container\">\r\n \r\n           <a href=\"/\" class=\"page-logo\">\r\n-            <img src=\"../pictures/logo_photographer_color.svg\" class=\"logo\" alt=\"Let's shine!\">\r\n+            <img src=\"../pictures/logo_photographer_b_w.svg\" class=\"logo\" alt=\"Let's shine!\">\r\n           </a>\r\n \r\n           <nav class=\"page-nav\">\r\n             <ul class=\"page-nav-list\">\r\n"
+                },
+                {
+                    "date": 1674845161734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n         </div>\r\n       </header>\r\n \r\n       <section class=\"banner\">\r\n-        <h1 class=\"banner__title\">Title</h1>\r\n+        <h1 class=\"banner__title\">Welcome</h1>\r\n         <p class=\"banner_text\">Lorem ipsum dolor sit amet consectetur, adipisicing elit Ducimus mollitia iure veritatis amet soluta unde labore deleniti rerum eveniet rem!</p>\r\n       </section>\r\n \r\n       <main class=\"page-content\">\r\n"
+                },
+                {
+                    "date": 1674845190569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n         </div>\r\n       </header>\r\n \r\n       <section class=\"banner\">\r\n-        <h1 class=\"banner__title\">Welcome</h1>\r\n+        <h1 class=\"banner__title\"></h1>\r\n         <p class=\"banner_text\">Lorem ipsum dolor sit amet consectetur, adipisicing elit Ducimus mollitia iure veritatis amet soluta unde labore deleniti rerum eveniet rem!</p>\r\n       </section>\r\n \r\n       <main class=\"page-content\">\r\n"
+                },
+                {
+                    "date": 1674845217408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n         </div>\r\n       </header>\r\n \r\n       <section class=\"banner\">\r\n-        <h1 class=\"banner__title\"></h1>\r\n+        <h1 class=\"banner__title\">Hi, beautiful</h1>\r\n         <p class=\"banner_text\">Lorem ipsum dolor sit amet consectetur, adipisicing elit Ducimus mollitia iure veritatis amet soluta unde labore deleniti rerum eveniet rem!</p>\r\n       </section>\r\n \r\n       <main class=\"page-content\">\r\n"
+                },
+                {
+                    "date": 1674845278272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,12 +9,10 @@\n   <link rel=\"stylesheet\" href=\"style.css\">\r\n   <link rel=\"stylesheet\" href=\"../scss/main.scss\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n-  <link href=\"https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap\" rel=\"stylesheet\">\r\n-  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n-  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n   <link href=\"https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap\" rel=\"stylesheet\">\r\n+  \r\n </head>\r\n <body>\r\n     <header class=\"page-header\">\r\n         <div class=\"container\">\r\n"
+                },
+                {
+                    "date": 1674845288392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,11 @@\n   <link rel=\"stylesheet\" href=\"../scss/main.scss\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n   <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n   <link href=\"https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap\" rel=\"stylesheet\">\r\n-  \r\n+  <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n+  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n+  <link href=\"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap\" rel=\"stylesheet\">\r\n </head>\r\n <body>\r\n     <header class=\"page-header\">\r\n         <div class=\"container\">\r\n"
+                },
+                {
+                    "date": 1674845331290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n         </div>\r\n       </header>\r\n \r\n       <section class=\"banner\">\r\n-        <h1 class=\"banner__title\">Hi, beautiful</h1>\r\n+        <h1 class=\"banner__title\">Hi, Beautiful!</h1>\r\n         <p class=\"banner_text\">Lorem ipsum dolor sit amet consectetur, adipisicing elit Ducimus mollitia iure veritatis amet soluta unde labore deleniti rerum eveniet rem!</p>\r\n       </section>\r\n \r\n       <main class=\"page-content\">\r\n"
+                },
+                {
+                    "date": 1674846327949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,24 +15,19 @@\n   <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n   <link href=\"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap\" rel=\"stylesheet\">\r\n </head>\r\n <body>\r\n-    <header class=\"page-header\">\r\n-        <div class=\"container\">\r\n-\r\n-          <a href=\"/\" class=\"page-logo\">\r\n-            <img src=\"../pictures/logo_photographer_b_w.svg\" class=\"logo\" alt=\"Let's shine!\">\r\n-          </a>\r\n-\r\n-          <nav class=\"page-nav\">\r\n-            <ul class=\"page-nav-list\">\r\n-              <li><a href=\"#\">About</a></li>\r\n-              <li><a href=\"#\">Portfolio</a></li>\r\n-              <li><a href=\"#\">Offer</a></li>\r\n-              <li><a href=\"#\">Contact</a></li>\r\n+    <header class=\"header\">\r\n+        <div class=\"header__container container\">\r\n+          <a href=\"#\" class=\"logo\">BestShop</a>\r\n+          <nav>\r\n+            <ul class=\"header__nav\">\r\n+              <li class=\"nav__element\"><a href=\"#why-us\" class=\"nav__link\">Why us</a></li>\r\n+              <li class=\"nav__element\"><a href=\"#benefits\" class=\"nav__link\">Benefits</a></li>\r\n+              <li class=\"nav__element\"><a href=\"#prices\" class=\"nav__link\">Prices</a></li>\r\n+              <li class=\"nav__element\"><a href=\"#contact\" class=\"nav__link\">Contact</a></li>\r\n             </ul>\r\n           </nav>\r\n-\r\n         </div>\r\n       </header>\r\n \r\n       <section class=\"banner\">\r\n"
+                },
+                {
+                    "date": 1674846335440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,19 +15,24 @@\n   <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n   <link href=\"https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap\" rel=\"stylesheet\">\r\n </head>\r\n <body>\r\n-    <header class=\"header\">\r\n-        <div class=\"header__container container\">\r\n-          <a href=\"#\" class=\"logo\">BestShop</a>\r\n-          <nav>\r\n-            <ul class=\"header__nav\">\r\n-              <li class=\"nav__element\"><a href=\"#why-us\" class=\"nav__link\">Why us</a></li>\r\n-              <li class=\"nav__element\"><a href=\"#benefits\" class=\"nav__link\">Benefits</a></li>\r\n-              <li class=\"nav__element\"><a href=\"#prices\" class=\"nav__link\">Prices</a></li>\r\n-              <li class=\"nav__element\"><a href=\"#contact\" class=\"nav__link\">Contact</a></li>\r\n+    <header class=\"page-header\">\r\n+        <div class=\"container\">\r\n+\r\n+          <a href=\"/\" class=\"page-logo\">\r\n+            <img src=\"../pictures/logo_photographer_b_w.svg\" class=\"logo\" alt=\"Let's shine!\">\r\n+          </a>\r\n+\r\n+          <nav class=\"page-nav\">\r\n+            <ul class=\"page-nav-list\">\r\n+              <li><a href=\"#\">About</a></li>\r\n+              <li><a href=\"#\">Portfolio</a></li>\r\n+              <li><a href=\"#\">Offer</a></li>\r\n+              <li><a href=\"#\">Contact</a></li>\r\n             </ul>\r\n           </nav>\r\n+\r\n         </div>\r\n       </header>\r\n \r\n       <section class=\"banner\">\r\n"
+                },
+                {
+                    "date": 1674846371900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,14 +22,14 @@\n           <a href=\"/\" class=\"page-logo\">\r\n             <img src=\"../pictures/logo_photographer_b_w.svg\" class=\"logo\" alt=\"Let's shine!\">\r\n           </a>\r\n \r\n-          <nav class=\"page-nav\">\r\n-            <ul class=\"page-nav-list\">\r\n-              <li><a href=\"#\">About</a></li>\r\n-              <li><a href=\"#\">Portfolio</a></li>\r\n-              <li><a href=\"#\">Offer</a></li>\r\n-              <li><a href=\"#\">Contact</a></li>\r\n+          <nav>\r\n+            <ul class=\"header__nav\">\r\n+              <li class=\"nav__element\"><a href=\"#why-us\" class=\"nav__link\">Why us</a></li>\r\n+              <li class=\"nav__element\"><a href=\"#benefits\" class=\"nav__link\">Benefits</a></li>\r\n+              <li class=\"nav__element\"><a href=\"#prices\" class=\"nav__link\">Prices</a></li>\r\n+              <li class=\"nav__element\"><a href=\"#contact\" class=\"nav__link\">Contact</a></li>\r\n             </ul>\r\n           </nav>\r\n \r\n         </div>\r\n"
+                },
+                {
+                    "date": 1674846633717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,11 +24,11 @@\n           </a>\r\n \r\n           <nav>\r\n             <ul class=\"header__nav\">\r\n-              <li class=\"nav__element\"><a href=\"#why-us\" class=\"nav__link\">Why us</a></li>\r\n-              <li class=\"nav__element\"><a href=\"#benefits\" class=\"nav__link\">Benefits</a></li>\r\n-              <li class=\"nav__element\"><a href=\"#prices\" class=\"nav__link\">Prices</a></li>\r\n+              <li class=\"nav__element\"><a href=\"#why-us\" class=\"nav__link\">About</a></li>\r\n+              <li class=\"nav__element\"><a href=\"#benefits\" class=\"nav__link\">Portfolio</a></li>\r\n+              <li class=\"nav__element\"><a href=\"#prices\" class=\"nav__link\">Offer</a></li>\r\n               <li class=\"nav__element\"><a href=\"#contact\" class=\"nav__link\">Contact</a></li>\r\n             </ul>\r\n           </nav>\r\n \r\n"
+                },
+                {
+                    "date": 1674847022866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n <body>\r\n     <header class=\"page-header\">\r\n         <div class=\"container\">\r\n \r\n-          <a href=\"/\" class=\"page-logo\">\r\n+          <a href=\"#\" class=\"page-logo\">\r\n             <img src=\"../pictures/logo_photographer_b_w.svg\" class=\"logo\" alt=\"Let's shine!\">\r\n           </a>\r\n \r\n           <nav>\r\n"
+                },
+                {
+                    "date": 1674847496104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,6 +46,8 @@\n           <article class=\"article\"></article>\r\n           <article class=\"article\"></article>\r\n         </div>\r\n       </main>\r\n+\r\n+      \r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674847518821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,7 +47,37 @@\n           <article class=\"article\"></article>\r\n         </div>\r\n       </main>\r\n \r\n-      \r\n+      <footer class=\"footer\">\r\n+        <div class=\"waves\">\r\n+          <div class=\"wave\" id=\"wave1\"></div>\r\n+          <div class=\"wave\" id=\"wave2\"></div>\r\n+          <div class=\"wave\" id=\"wave3\"></div>\r\n+          <div class=\"wave\" id=\"wave4\"></div>\r\n+        </div>\r\n+        <ul class=\"social-icon\">\r\n+          <li class=\"social-icon__item\"><a class=\"social-icon__link\" href=\"#\">\r\n+              <ion-icon name=\"logo-facebook\"></ion-icon>\r\n+            </a></li>\r\n+          <li class=\"social-icon__item\"><a class=\"social-icon__link\" href=\"#\">\r\n+              <ion-icon name=\"logo-twitter\"></ion-icon>\r\n+            </a></li>\r\n+          <li class=\"social-icon__item\"><a class=\"social-icon__link\" href=\"#\">\r\n+              <ion-icon name=\"logo-linkedin\"></ion-icon>\r\n+            </a></li>\r\n+          <li class=\"social-icon__item\"><a class=\"social-icon__link\" href=\"#\">\r\n+              <ion-icon name=\"logo-instagram\"></ion-icon>\r\n+            </a></li>\r\n+        </ul>\r\n+        <ul class=\"menu\">\r\n+          <li class=\"menu__item\"><a class=\"menu__link\" href=\"#\">Home</a></li>\r\n+          <li class=\"menu__item\"><a class=\"menu__link\" href=\"#\">About</a></li>\r\n+          <li class=\"menu__item\"><a class=\"menu__link\" href=\"#\">Services</a></li>\r\n+          <li class=\"menu__item\"><a class=\"menu__link\" href=\"#\">Team</a></li>\r\n+          <li class=\"menu__item\"><a class=\"menu__link\" href=\"#\">Contact</a></li>\r\n+\r\n+        </ul>\r\n+        <p>&copy;2021 Nadine Coelho | All Rights Reserved</p>\r\n+      </footer>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674847625738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n           <li class=\"menu__item\"><a class=\"menu__link\" href=\"#\">About</a></li>\r\n           <li class=\"menu__item\"><a class=\"menu__link\" href=\"#\">Services</a></li>\r\n           <li class=\"menu__item\"><a class=\"menu__link\" href=\"#\">Team</a></li>\r\n           <li class=\"menu__item\"><a class=\"menu__link\" href=\"#\">Contact</a></li>\r\n-\r\n+    \r\n         </ul>\r\n         <p>&copy;2021 Nadine Coelho | All Rights Reserved</p>\r\n       </footer>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1674847636183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,37 +47,7 @@\n           <article class=\"article\"></article>\r\n         </div>\r\n       </main>\r\n \r\n-      <footer class=\"footer\">\r\n-        <div class=\"waves\">\r\n-          <div class=\"wave\" id=\"wave1\"></div>\r\n-          <div class=\"wave\" id=\"wave2\"></div>\r\n-          <div class=\"wave\" id=\"wave3\"></div>\r\n-          <div class=\"wave\" id=\"wave4\"></div>\r\n-        </div>\r\n-        <ul class=\"social-icon\">\r\n-          <li class=\"social-icon__item\"><a class=\"social-icon__link\" href=\"#\">\r\n-              <ion-icon name=\"logo-facebook\"></ion-icon>\r\n-            </a></li>\r\n-          <li class=\"social-icon__item\"><a class=\"social-icon__link\" href=\"#\">\r\n-              <ion-icon name=\"logo-twitter\"></ion-icon>\r\n-            </a></li>\r\n-          <li class=\"social-icon__item\"><a class=\"social-icon__link\" href=\"#\">\r\n-              <ion-icon name=\"logo-linkedin\"></ion-icon>\r\n-            </a></li>\r\n-          <li class=\"social-icon__item\"><a class=\"social-icon__link\" href=\"#\">\r\n-              <ion-icon name=\"logo-instagram\"></ion-icon>\r\n-            </a></li>\r\n-        </ul>\r\n-        <ul class=\"menu\">\r\n-          <li class=\"menu__item\"><a class=\"menu__link\" href=\"#\">Home</a></li>\r\n-          <li class=\"menu__item\"><a class=\"menu__link\" href=\"#\">About</a></li>\r\n-          <li class=\"menu__item\"><a class=\"menu__link\" href=\"#\">Services</a></li>\r\n-          <li class=\"menu__item\"><a class=\"menu__link\" href=\"#\">Team</a></li>\r\n-          <li class=\"menu__item\"><a class=\"menu__link\" href=\"#\">Contact</a></li>\r\n-    \r\n-        </ul>\r\n-        <p>&copy;2021 Nadine Coelho | All Rights Reserved</p>\r\n-      </footer>\r\n+      \r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674847995082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,7 +47,19 @@\n           <article class=\"article\"></article>\r\n         </div>\r\n       </main>\r\n \r\n+      <footer class=\"footer\">\r\n+        <div class=\"footer__container container\">\r\n+          <div class=\"footer__info\">\r\n+            <a href=\"#\" class=\"logo\">BestShop</a>\r\n+            <span class=\"footer__copy\">© 2019 BestShop LTD, All Rights Reserved</span>\r\n+          </div>\r\n+          <div class=\"footer__icons\">\r\n+            <a href=\"#\"><img src=\"assets/Twitter.svg\" alt=\"twitter\"/></a>\r\n+            <a href=\"#\"><img src=\"assets/Facebook.svg\" alt=\"facebook\"/></a>\r\n+          </div>\r\n+        </div>\r\n+      </footer>\r\n       \r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674848028122,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,18 +48,18 @@\n         </div>\r\n       </main>\r\n \r\n       <footer class=\"footer\">\r\n-        <div class=\"footer__container container\">\r\n-          <div class=\"footer__info\">\r\n-            <a href=\"#\" class=\"logo\">BestShop</a>\r\n-            <span class=\"footer__copy\">© 2019 BestShop LTD, All Rights Reserved</span>\r\n-          </div>\r\n-          <div class=\"footer__icons\">\r\n-            <a href=\"#\"><img src=\"assets/Twitter.svg\" alt=\"twitter\"/></a>\r\n-            <a href=\"#\"><img src=\"assets/Facebook.svg\" alt=\"facebook\"/></a>\r\n-          </div>\r\n-        </div>\r\n-      </footer>\r\n-      \r\n+  <div class=\"footer__container container\">\r\n+    <div class=\"footer__info\">\r\n+      <a href=\"#\" class=\"logo\">BestShop</a>\r\n+      <span class=\"footer__copy\">© 2019 BestShop LTD, All Rights Reserved</span>\r\n+    </div>\r\n+    <div class=\"footer__icons\">\r\n+      <a href=\"#\"><img src=\"assets/Twitter.svg\" alt=\"twitter\"/></a>\r\n+      <a href=\"#\"><img src=\"assets/Facebook.svg\" alt=\"facebook\"/></a>\r\n+    </div>\r\n+  </div>\r\n+</footer>\r\n+\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674848300907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,18 +48,16 @@\n         </div>\r\n       </main>\r\n \r\n       <footer class=\"footer\">\r\n-  <div class=\"footer__container container\">\r\n-    <div class=\"footer__info\">\r\n-      <a href=\"#\" class=\"logo\">BestShop</a>\r\n-      <span class=\"footer__copy\">© 2019 BestShop LTD, All Rights Reserved</span>\r\n-    </div>\r\n-    <div class=\"footer__icons\">\r\n-      <a href=\"#\"><img src=\"assets/Twitter.svg\" alt=\"twitter\"/></a>\r\n-      <a href=\"#\"><img src=\"assets/Facebook.svg\" alt=\"facebook\"/></a>\r\n-    </div>\r\n-  </div>\r\n-</footer>\r\n-\r\n+        <div class=\"footer__container container\">\r\n+          <div class=\"footer__info\">\r\n+            <span class=\"footer__copy\">© 2023 Let's Shine! Photography, All Rights Reserved</span>\r\n+          </div>\r\n+          <div class=\"footer__icons\">\r\n+            <a href=\"#\"><img src=\"assets/Twitter.svg\" alt=\"twitter\"/></a>\r\n+            <a href=\"#\"><img src=\"assets/Facebook.svg\" alt=\"facebook\"/></a>\r\n+          </div>\r\n+        </div>\r\n+      </footer>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674848416654,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,10 +53,10 @@\n           <div class=\"footer__info\">\r\n             <span class=\"footer__copy\">© 2023 Let's Shine! Photography, All Rights Reserved</span>\r\n           </div>\r\n           <div class=\"footer__icons\">\r\n-            <a href=\"#\"><img src=\"assets/Twitter.svg\" alt=\"twitter\"/></a>\r\n-            <a href=\"#\"><img src=\"assets/Facebook.svg\" alt=\"facebook\"/></a>\r\n+            <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\"/></a>\r\n+            <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\"/></a>\r\n           </div>\r\n         </div>\r\n       </footer>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1674848582050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,8 +55,9 @@\n           </div>\r\n           <div class=\"footer__icons\">\r\n             <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\"/></a>\r\n             <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\"/></a>\r\n+            \r\n           </div>\r\n         </div>\r\n       </footer>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1674848608998,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n           </div>\r\n           <div class=\"footer__icons\">\r\n             <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\"/></a>\r\n             <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\"/></a>\r\n-            \r\n+            <a href=\"#\"><img src=\"../pictures/Instagram.svg\" alt=\"finstagram\"/></a>\r\n           </div>\r\n         </div>\r\n       </footer>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1674848673719,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n           <div class=\"footer__info\">\r\n             <span class=\"footer__copy\">© 2023 Let's Shine! Photography, All Rights Reserved</span>\r\n           </div>\r\n           <div class=\"footer__icons\">\r\n-            <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\"/></a>\r\n+            <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\" class=\"icon\"/></a>\r\n             <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\"/></a>\r\n             <a href=\"#\"><img src=\"../pictures/Instagram.svg\" alt=\"finstagram\"/></a>\r\n           </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1674848693046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,10 +53,10 @@\n           <div class=\"footer__info\">\r\n             <span class=\"footer__copy\">© 2023 Let's Shine! Photography, All Rights Reserved</span>\r\n           </div>\r\n           <div class=\"footer__icons\">\r\n-            <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\" class=\"icon\"/></a>\r\n-            <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\"/></a>\r\n+            <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\" class=\"footr__icon\"/></a>\r\n+            <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\" /></a>\r\n             <a href=\"#\"><img src=\"../pictures/Instagram.svg\" alt=\"finstagram\"/></a>\r\n           </div>\r\n         </div>\r\n       </footer>\r\n"
+                },
+                {
+                    "date": 1674848698419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,10 +54,10 @@\n             <span class=\"footer__copy\">© 2023 Let's Shine! Photography, All Rights Reserved</span>\r\n           </div>\r\n           <div class=\"footer__icons\">\r\n             <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\" class=\"footr__icon\"/></a>\r\n-            <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\" /></a>\r\n-            <a href=\"#\"><img src=\"../pictures/Instagram.svg\" alt=\"finstagram\"/></a>\r\n+            <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\" class=\"footr__icon\"/></a>\r\n+            <a href=\"#\"><img src=\"../pictures/Instagram.svg\" alt=\"finstagram\" /></a>\r\n           </div>\r\n         </div>\r\n       </footer>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1674848703835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n           </div>\r\n           <div class=\"footer__icons\">\r\n             <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\" class=\"footr__icon\"/></a>\r\n             <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\" class=\"footr__icon\"/></a>\r\n-            <a href=\"#\"><img src=\"../pictures/Instagram.svg\" alt=\"finstagram\" /></a>\r\n+            <a href=\"#\"><img src=\"../pictures/Instagram.svg\" alt=\"finstagram\" class=\"footr__icon\"/></a>\r\n           </div>\r\n         </div>\r\n       </footer>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1674849004829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,11 +53,11 @@\n           <div class=\"footer__info\">\r\n             <span class=\"footer__copy\">© 2023 Let's Shine! Photography, All Rights Reserved</span>\r\n           </div>\r\n           <div class=\"footer__icons\">\r\n-            <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\" class=\"footr__icon\"/></a>\r\n-            <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\" class=\"footr__icon\"/></a>\r\n-            <a href=\"#\"><img src=\"../pictures/Instagram.svg\" alt=\"finstagram\" class=\"footr__icon\"/></a>\r\n+            <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\"/></a>\r\n+            <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\"/></a>\r\n+            <a href=\"#\"><img src=\"../pictures/Twitter_icon.svg\" alt=\"instagram\" /></a>\r\n           </div>\r\n         </div>\r\n       </footer>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1674849038922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n           </div>\r\n           <div class=\"footer__icons\">\r\n             <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\"/></a>\r\n             <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\"/></a>\r\n-            <a href=\"#\"><img src=\"../pictures/Twitter_icon.svg\" alt=\"instagram\" /></a>\r\n+            <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"instagram\" /></a>\r\n           </div>\r\n         </div>\r\n       </footer>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1674849083873,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n           </div>\r\n           <div class=\"footer__icons\">\r\n             <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\"/></a>\r\n             <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\"/></a>\r\n-            <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"instagram\" /></a>\r\n+\r\n           </div>\r\n         </div>\r\n       </footer>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1674849311101,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n           </div>\r\n           <div class=\"footer__icons\">\r\n             <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\"/></a>\r\n             <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\"/></a>\r\n-\r\n+            \r\n           </div>\r\n         </div>\r\n       </footer>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1674849323099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n           </div>\r\n           <div class=\"footer__icons\">\r\n             <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\"/></a>\r\n             <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\"/></a>\r\n-            \r\n+            <i class=\"fa-solid fa-circle-plus\"></i>\r\n           </div>\r\n         </div>\r\n       </footer>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1674849386162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,12 @@\n           </div>\r\n           <div class=\"footer__icons\">\r\n             <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\"/></a>\r\n             <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\"/></a>\r\n+            <button class=\"btn btn-primary btn-icon-plus\">\r\n             <i class=\"fa-solid fa-circle-plus\"></i>\r\n+                <span>Klik</span>\r\n+              </button>\r\n           </div>\r\n         </div>\r\n       </footer>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1674849397132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,12 +55,8 @@\n           </div>\r\n           <div class=\"footer__icons\">\r\n             <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\"/></a>\r\n             <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\"/></a>\r\n-            <button class=\"btn btn-primary btn-icon-plus\">\r\n-            <i class=\"fa-solid fa-circle-plus\"></i>\r\n-                <span>Klik</span>\r\n-              </button>\r\n           </div>\r\n         </div>\r\n       </footer>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1674849409927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,8 +53,9 @@\n           <div class=\"footer__info\">\r\n             <span class=\"footer__copy\">© 2023 Let's Shine! Photography, All Rights Reserved</span>\r\n           </div>\r\n           <div class=\"footer__icons\">\r\n+            \r\n             <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\"/></a>\r\n             <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\"/></a>\r\n           </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1674849420995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,11 +51,11 @@\n       <footer class=\"footer\">\r\n         <div class=\"footer__container container\">\r\n           <div class=\"footer__info\">\r\n             <span class=\"footer__copy\">© 2023 Let's Shine! Photography, All Rights Reserved</span>\r\n-          </div>\r\n+          \r\n+        </div>\r\n           <div class=\"footer__icons\">\r\n-            \r\n             <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\"/></a>\r\n             <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\"/></a>\r\n           </div>\r\n         </div>\r\n"
+                },
+                {
+                    "date": 1674849467114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,14 +51,8 @@\n       <footer class=\"footer\">\r\n         <div class=\"footer__container container\">\r\n           <div class=\"footer__info\">\r\n             <span class=\"footer__copy\">© 2023 Let's Shine! Photography, All Rights Reserved</span>\r\n-          \r\n         </div>\r\n-          <div class=\"footer__icons\">\r\n-            <a href=\"#\"><img src=\"../pictures/Twitter.svg\" alt=\"twitter\"/></a>\r\n-            <a href=\"#\"><img src=\"../pictures/Facebook.svg\" alt=\"facebook\"/></a>\r\n-          </div>\r\n-        </div>\r\n       </footer>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674849512732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,11 +48,8 @@\n         </div>\r\n       </main>\r\n \r\n       <footer class=\"footer\">\r\n-        <div class=\"footer__container container\">\r\n-          <div class=\"footer__info\">\r\n-            <span class=\"footer__copy\">© 2023 Let's Shine! Photography, All Rights Reserved</span>\r\n-        </div>\r\n+        <\r\n       </footer>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674849524392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,8 +48,8 @@\n         </div>\r\n       </main>\r\n \r\n       <footer class=\"footer\">\r\n-        <\r\n+        <span class=\"footer__copy\">© 2023 Let's Shine! Photography, All Rights Reserved</span>\r\n       </footer>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674849797028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,11 +24,11 @@\n           </a>\r\n \r\n           <nav>\r\n             <ul class=\"header__nav\">\r\n-              <li class=\"nav__element\"><a href=\"#why-us\" class=\"nav__link\">About</a></li>\r\n-              <li class=\"nav__element\"><a href=\"#benefits\" class=\"nav__link\">Portfolio</a></li>\r\n-              <li class=\"nav__element\"><a href=\"#prices\" class=\"nav__link\">Offer</a></li>\r\n+              <li class=\"nav__element\"><a href=\"#about\" class=\"nav__link\">About</a></li>\r\n+              <li class=\"nav__element\"><a href=\"#portfolio\" class=\"nav__link\">Portfolio</a></li>\r\n+              <li class=\"nav__element\"><a href=\"#offer\" class=\"nav__link\">Offer</a></li>\r\n               <li class=\"nav__element\"><a href=\"#contact\" class=\"nav__link\">Contact</a></li>\r\n             </ul>\r\n           </nav>\r\n \r\n"
+                },
+                {
+                    "date": 1674849903728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,8 +48,8 @@\n         </div>\r\n       </main>\r\n \r\n       <footer class=\"footer\">\r\n-        <span class=\"footer__copy\">© 2023 Let's Shine! Photography, All Rights Reserved</span>\r\n+        <span class=\"footer__text\">© 2023 Let's Shine! Photography, All Rights Reserved</span>\r\n       </footer>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674850001415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,8 +48,8 @@\n         </div>\r\n       </main>\r\n \r\n       <footer class=\"footer\">\r\n-        <span class=\"footer__text\">© 2023 Let's Shine! Photography, All Rights Reserved</span>\r\n+        <span class=\"footer__text\">© 2023 Let's Shine! Photography <Br></Br> All Rights Reserved</span>\r\n       </footer>\r\n </body>\r\n </html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1674835729241,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

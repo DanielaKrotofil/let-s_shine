@@ -1,0 +1,86 @@
+{
+    "sourceFile": "main/scss/main.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 17,
+            "patches": [
+                {
+                    "date": 1674838071124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1674838161713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-font-family: 'Indie Flower', cursive;\n\\ No newline at end of file\n+$font-Flower: \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674838342458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-$font-Flower: \n\\ No newline at end of file\n+$font-Flower: font-family: 'Indie Flower', cursive;\r\n+$font-basic: ;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674838353950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n $font-Flower: font-family: 'Indie Flower', cursive;\r\n-$font-basic: ;\n\\ No newline at end of file\n+$font-basic: \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674838359883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n $font-Flower: font-family: 'Indie Flower', cursive;\r\n-$font-basic: \n\\ No newline at end of file\n+$font-basic: font-family: 'Lato', sans-serif;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674838814793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,4 @@\n $font-Flower: font-family: 'Indie Flower', cursive;\r\n-$font-basic: font-family: 'Lato', sans-serif;\n\\ No newline at end of file\n+$font-basic: font-family: 'Lato', sans-serif;\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1674838825314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,12 @@\n $font-Flower: font-family: 'Indie Flower', cursive;\r\n $font-basic: font-family: 'Lato', sans-serif;\r\n \r\n \r\n+* {\r\n+    box-sizing: border-box;\r\n+  }\r\n+\r\n+  .container {\r\n+    margin: 0 auto;\r\n+    width: 1200px;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674839014111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n $font-Flower: font-family: 'Indie Flower', cursive;\r\n $font-basic: font-family: 'Lato', sans-serif;\r\n+$color-basic: \r\n \r\n \r\n * {\r\n     box-sizing: border-box;\r\n"
+                },
+                {
+                    "date": 1674839027192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n $font-Flower: font-family: 'Indie Flower', cursive;\r\n $font-basic: font-family: 'Lato', sans-serif;\r\n-$color-basic: \r\n+$color-basic: #FFEFD6;\r\n \r\n \r\n+\r\n * {\r\n     box-sizing: border-box;\r\n   }\r\n \r\n"
+                },
+                {
+                    "date": 1674839042795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n $font-Flower: font-family: 'Indie Flower', cursive;\r\n $font-basic: font-family: 'Lato', sans-serif;\r\n $color-basic: #FFEFD6;\r\n+$color-coffee: #\r\n \r\n \r\n-\r\n * {\r\n     box-sizing: border-box;\r\n   }\r\n \r\n"
+                },
+                {
+                    "date": 1674839060194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,15 @@\n $font-Flower: font-family: 'Indie Flower', cursive;\r\n $font-basic: font-family: 'Lato', sans-serif;\r\n $color-basic: #FFEFD6;\r\n-$color-coffee: #\r\n+$color-coffee: #F2DEBA;\r\n \r\n \r\n+\r\n * {\r\n     box-sizing: border-box;\r\n   }\r\n \r\n-  .container {\r\n+.container {\r\n     margin: 0 auto;\r\n     width: 1200px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674839082032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n $font-Flower: font-family: 'Indie Flower', cursive;\r\n $font-basic: font-family: 'Lato', sans-serif;\r\n $color-basic: #FFEFD6;\r\n $color-coffee: #F2DEBA;\r\n+$color-blue: #\r\n \r\n \r\n-\r\n * {\r\n     box-sizing: border-box;\r\n   }\r\n \r\n"
+                },
+                {
+                    "date": 1674839087512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,12 @@\n $font-Flower: font-family: 'Indie Flower', cursive;\r\n $font-basic: font-family: 'Lato', sans-serif;\r\n $color-basic: #FFEFD6;\r\n $color-coffee: #F2DEBA;\r\n-$color-blue: #\r\n+$color-blue: #3A8891;\r\n \r\n \r\n+\r\n * {\r\n     box-sizing: border-box;\r\n   }\r\n \r\n"
+                },
+                {
+                    "date": 1674839102823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,11 @@\n $font-basic: font-family: 'Lato', sans-serif;\r\n $color-basic: #FFEFD6;\r\n $color-coffee: #F2DEBA;\r\n $color-blue: #3A8891;\r\n+$color-darkblue: #\r\n \r\n \r\n-\r\n * {\r\n     box-sizing: border-box;\r\n   }\r\n \r\n"
+                },
+                {
+                    "date": 1674839113540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n $font-basic: font-family: 'Lato', sans-serif;\r\n $color-basic: #FFEFD6;\r\n $color-coffee: #F2DEBA;\r\n $color-blue: #3A8891;\r\n-$color-darkblue: #\r\n+$color-darkblue: #0E5E6F;\r\n \r\n \r\n * {\r\n     box-sizing: border-box;\r\n"
+                },
+                {
+                    "date": 1674839331786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,5 +12,5 @@\n \r\n .container {\r\n     margin: 0 auto;\r\n     width: 1200px;\r\n-}\n\\ No newline at end of file\n+}\r\n"
+                },
+                {
+                    "date": 1674839355626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,4 +13,7 @@\n .container {\r\n     margin: 0 auto;\r\n     width: 1200px;\r\n }\r\n+body {\r\n+    font-family: $font-basic;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674839416046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,13 +7,15 @@\n \r\n \r\n * {\r\n     box-sizing: border-box;\r\n-  }\r\n+}\r\n \r\n .container {\r\n     margin: 0 auto;\r\n     width: 1200px;\r\n }\r\n+\r\n body {\r\n     font-family: $font-basic;\r\n+    background-color: $color-basic;\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1674838071124,
+            "name": "Commit-0",
+            "content": "font-family: 'Indie Flower', cursive;"
+        }
+    ]
+}

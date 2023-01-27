@@ -1,0 +1,30 @@
+{
+    "sourceFile": "scss/main.scss",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1674843915607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1674844216935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n $font-Flower: font-family: 'Indie Flower', cursive;\r\n $font-basic: font-family: 'Lato', sans-serif;\r\n-$color-basic: #FFEFD6;\r\n+$color-basic: #;\r\n $color-coffee: #F2DEBA;\r\n $color-blue: #3A8891;\r\n $color-darkblue: #0E5E6F;\r\n \r\n"
+                },
+                {
+                    "date": 1674844223357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n $font-Flower: font-family: 'Indie Flower', cursive;\r\n $font-basic: font-family: 'Lato', sans-serif;\r\n-$color-basic: #;\r\n+$color-basic: #FFEFE4;\r\n $color-coffee: #F2DEBA;\r\n $color-blue: #3A8891;\r\n $color-darkblue: #0E5E6F;\r\n \r\n"
+                },
+                {
+                    "date": 1674845383836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-$font-Flower: font-family: 'Indie Flower', cursive;\r\n+$font-decoration: font-family: 'Dancing Script', cursive;\r\n $font-basic: font-family: 'Lato', sans-serif;\r\n $color-basic: #FFEFE4;\r\n $color-coffee: #F2DEBA;\r\n $color-blue: #3A8891;\r\n"
+                }
+            ],
+            "date": 1674843915607,
+            "name": "Commit-0",
+            "content": "$font-Flower: font-family: 'Indie Flower', cursive;\r\n$font-basic: font-family: 'Lato', sans-serif;\r\n$color-basic: #FFEFD6;\r\n$color-coffee: #F2DEBA;\r\n$color-blue: #3A8891;\r\n$color-darkblue: #0E5E6F;\r\n\r\n\r\n* {\r\n    box-sizing: border-box;\r\n}\r\n\r\n.container {\r\n    margin: 0 auto;\r\n    width: 1200px;\r\n}\r\n\r\nbody {\r\n    font-family: $font-basic;\r\n    background-color: $color-basic;\r\n}"
+        }
+    ]
+}
