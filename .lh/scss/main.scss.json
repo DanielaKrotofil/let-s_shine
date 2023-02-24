@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1674843915607,
@@ -20,6 +20,18 @@
                 {
                     "date": 1674845383836,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-$font-Flower: font-family: 'Indie Flower', cursive;\r\n+$font-decoration: font-family: 'Dancing Script', cursive;\r\n $font-basic: font-family: 'Lato', sans-serif;\r\n $color-basic: #FFEFE4;\r\n $color-coffee: #F2DEBA;\r\n $color-blue: #3A8891;\r\n"
+                },
+                {
+                    "date": 1677251796325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,7 @@\n+@import './reset';\r\n+@import './mixins';\r\n+\r\n $font-decoration: font-family: 'Dancing Script', cursive;\r\n $font-basic: font-family: 'Lato', sans-serif;\r\n $color-basic: #FFEFE4;\r\n $color-coffee: #F2DEBA;\r\n"
+                },
+                {
+                    "date": 1677255293108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,24 +1,4 @@\n-@import './reset';\r\n-@import './mixins';\r\n-\r\n-$font-decoration: font-family: 'Dancing Script', cursive;\r\n-$font-basic: font-family: 'Lato', sans-serif;\r\n-$color-basic: #FFEFE4;\r\n-$color-coffee: #F2DEBA;\r\n-$color-blue: #3A8891;\r\n-$color-darkblue: #0E5E6F;\r\n-\r\n-\r\n-* {\r\n-    box-sizing: border-box;\r\n-}\r\n-\r\n-.container {\r\n-    margin: 0 auto;\r\n-    width: 1200px;\r\n-}\r\n-\r\n-body {\r\n-    font-family: $font-basic;\r\n-    background-color: $color-basic;\r\n-}\n\\ No newline at end of file\n+@import './settngs/reset';\r\n+@import './settngs/variables';\r\n+@import './settngs/mixins';\r\n+@import \"./elements/index\";\r\n"
+                },
+                {
+                    "date": 1677255815810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n @import './settngs/reset';\r\n @import './settngs/variables';\r\n-@import './settngs/mixins';\r\n+@import './settngs/rwd';\r\n @import \"./elements/index\";\r\n"
                 }
             ],
             "date": 1674843915607,

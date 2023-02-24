@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 81,
+            "activePatchIndex": 84,
             "patches": [
                 {
                     "date": 1674839573804,
@@ -332,6 +332,18 @@
                 {
                     "date": 1674850033152,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n     border-color: #0E5E6F;\r\n }\r\n \r\n .banner {\r\n-    height: 520px;\r\n+    height: 510px;\r\n     background-image: url(../pictures/banner.jpg);\r\n     opacity: 0.5;\r\n     background-size: cover;\r\n     background-position: center;\r\n"
+                },
+                {
+                    "date": 1674979232681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n     align-items: center;\r\n }\r\n \r\n .header__nav {\r\n-    display: flex;\r\n+    \r\n }\r\n \r\n .nav__element {\r\n     padding: 0 26px;\r\n"
+                },
+                {
+                    "date": 1674979253686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,14 +22,14 @@\n \r\n .page-header .container {\r\n     height: 85px;\r\n     display: flex;\r\n-    justify-content: space-between;\r\n+    \r\n     align-items: center;\r\n }\r\n \r\n .header__nav {\r\n-    \r\n+    display: flex;\r\n }\r\n \r\n .nav__element {\r\n     padding: 0 26px;\r\n"
+                },
+                {
+                    "date": 1674979284386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n \r\n .page-header .container {\r\n     height: 85px;\r\n     display: flex;\r\n-    \r\n+    justify-content: space-between;\r\n     align-items: center;\r\n }\r\n \r\n .header__nav {\r\n"
                 }
             ],
             "date": 1674839573804,

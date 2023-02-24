@@ -1,21 +1,4 @@
-$font-decoration: font-family: 'Dancing Script', cursive;
-$font-basic: font-family: 'Lato', sans-serif;
-$color-basic: #FFEFE4;
-$color-coffee: #F2DEBA;
-$color-blue: #3A8891;
-$color-darkblue: #0E5E6F;
-
-
-* {
-    box-sizing: border-box;
-}
-
-.container {
-    margin: 0 auto;
-    width: 1200px;
-}
-
-body {
-    font-family: $font-basic;
-    background-color: $color-basic;
-}
+@import './settngs/reset';
+@import './settngs/variables';
+@import './settngs/rwd';
+@import "./elements/index";

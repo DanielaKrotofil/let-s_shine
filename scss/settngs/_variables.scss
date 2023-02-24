@@ -1,0 +1,24 @@
+$font-decoration: 'Dancing Script', cursive;
+$font-basic: 'Lato', sans-serif;
+$color-basic: #FFEFE4;
+$color-coffee: #F2DEBA;
+$color-blue: #3A8891;
+$color-darkblue: #0E5E6F;
+$color-black: rgba(0, 0, 0, .3);
+$background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f2deba' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+body {
+    font-family: $font-basic;
+    background-color: $color-basic;
+    background-image: $background-image;
+}

@@ -1,0 +1,14 @@
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+package-lock.json
+node_modules/
+dist/
+.parcel-cache/
+css/
+
+.css
+.lh
+.babelrc
