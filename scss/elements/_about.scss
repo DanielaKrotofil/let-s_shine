@@ -1,0 +1,45 @@
+@import '../settngs/variables';
+@import '../settngs/rwd';
+
+
+.box {
+    display: flex;
+    font-family: $font-basic;
+    padding: 2rem;
+    gap: 3rem;
+
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__img {
+        max-width: 50%;
+        height: auto;
+        border-radius: 5%;
+
+        @include mobile {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1em;
+        border: 0.2em solid $color-darkblue;
+        border-radius: 5%;
+        background-color: $color-basic;
+        justify-content: center;
+
+        &__title {
+            font-family: $font-decoration;
+            font-size: 2rem;
+            text-align: center;
+            padding-bottom: 1rem;
+        }
+      }
+  }
+

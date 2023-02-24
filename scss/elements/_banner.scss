@@ -1,0 +1,22 @@
+.banner {
+    text-align: center;
+    margin: 3rem 0.5rem;
+  
+    &__title {
+      font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+      font-family: 'Dancing Script', cursive;
+  
+      span {
+        text-decoration: underline;
+        font-weight: 900;
+      }
+    }
+  
+    &__text {
+      font-size: 20px;
+      font-weight: 400;
+      opacity: 0.6;
+    }
+  }

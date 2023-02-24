@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 10,
             "patches": [
                 {
                     "date": 1674843915607,
@@ -32,6 +32,22 @@
                 {
                     "date": 1677255815810,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n @import './settngs/reset';\r\n @import './settngs/variables';\r\n-@import './settngs/mixins';\r\n+@import './settngs/rwd';\r\n @import \"./elements/index\";\r\n"
+                },
+                {
+                    "date": 1677275863579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n @import './settngs/reset';\r\n @import './settngs/variables';\r\n @import './settngs/rwd';\r\n @import \"./elements/index\";\r\n+@import './elements/footer';\r\n"
+                },
+                {
+                    "date": 1677275919200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n @import './settngs/reset';\r\n @import './settngs/variables';\r\n @import './settngs/rwd';\r\n+@import './elements/navigation';\r\n @import \"./elements/index\";\r\n @import './elements/footer';\r\n"
+                },
+                {
+                    "date": 1677277207247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n @import './settngs/reset';\r\n @import './settngs/variables';\r\n @import './settngs/rwd';\r\n @import './elements/navigation';\r\n+\r\n @import \"./elements/index\";\r\n @import './elements/footer';\r\n"
+                },
+                {
+                    "date": 1677277220232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n @import './settngs/reset';\r\n @import './settngs/variables';\r\n @import './settngs/rwd';\r\n @import './elements/navigation';\r\n-\r\n+@import \"./elements/banner\";\r\n @import \"./elements/index\";\r\n @import './elements/footer';\r\n"
                 }
             ],
             "date": 1674843915607,

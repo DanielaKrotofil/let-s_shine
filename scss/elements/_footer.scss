@@ -1,0 +1,13 @@
+@import '../settngs/variables';
+@import '../settngs/rwd';
+
+
+.footer {
+    padding: 2em 0;
+    text-align: center;
+
+    &__text {
+      color: #0E5E6F;
+      font-size: 0.8rem;
+    }
+}

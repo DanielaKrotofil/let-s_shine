@@ -1,0 +1,85 @@
+@import '../settngs/variables';
+@import '../settngs/rwd';
+
+
+.page-header {
+    nav[role="select"] {
+      width: 100%;
+      position:relative;
+      color: $color-darkblue;
+  
+       select {
+        display:none;
+      }
+  
+      ul {
+        width:100%;
+        list-style:none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+  
+        .link {
+            &:hover {
+              background-color: $color-darkblue;
+              color: $color-basic;
+              padding-left:.75em;
+              box-shadow:
+                0 0 0 .25em $color-black,
+                0 0 0 .5em $color-black,
+                0 0 0 .75em $color-black,
+              ;
+              @include mobile {
+                box-shadow: none;
+                background-color: $color-basic;
+                font-weight: 800;
+                padding: 0;
+                color: $color-darkblue;
+              }
+          }
+        }
+  
+        li {
+          padding:.55em .45em;
+          width:19%;
+          font-size:1.2em;
+  
+          text-align:center;
+          transition-duration: .15s;
+          cursor: pointer;
+  
+          .logo {
+            height: 55px;
+            padding:.15em .5em;
+            font-family: $font-decoration;
+          }
+  
+          a {
+            color:inherit;
+            text-decoration:none;
+            transition:inherit;
+          }
+        }
+      }
+  }
+  
+  
+  @include mobile {
+      body {
+      margin:1em 0;
+      }
+      nav[role="select"] {
+        .menubar {
+          display: flex;
+          user-select:none;
+          background-color: $color-basic;
+          color: $color-darkblue;
+          cursor: pointer;
+          width:100%;
+          padding:.15em .5em;
+          border-bottom: none;
+          font-size: 0.8em;
+          }
+        }
+      }
+  }
