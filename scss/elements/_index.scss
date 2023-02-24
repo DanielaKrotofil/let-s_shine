@@ -17,8 +17,8 @@ body {
     position:relative;
     color: $color-darkblue;
 
-    > select {
-      display:none; 
+     select {
+      display:none;
     }
 
     ul {
@@ -30,14 +30,21 @@ body {
 
       .link {
           &:hover {
-            background-color: $color-basic;
-            color: $color-darkblue;
+            background-color: $color-darkblue;
+            color: $color-basic;
             padding-left:.75em;
             box-shadow:
               0 0 0 .25em $color-black,
               0 0 0 .5em $color-black,
               0 0 0 .75em $color-black,
             ;
+            @include mobile {
+              box-shadow: none;
+              background-color: $color-basic;
+              font-weight: 800;
+              padding: 0;
+              color: $color-darkblue;
+            }
         }
       }
 
@@ -53,10 +60,7 @@ body {
         .logo {
           height: 55px;
           padding:.15em .5em;
-
-          @include mobile {
-            height: 10px;
-          }
+          font-family: $font-decoration;
         }
 
         a {
@@ -75,23 +79,20 @@ body {
     }
     nav[role="select"] {
       .menubar {
-        display:none;
-      }
-
-      .menu-list {
-        display:block;
+        display: flex;
         user-select:none;
         background-color: $color-basic;
         color: $color-darkblue;
         cursor: pointer;
         width:100%;
-        padding:.55em .45em;
-        border:none;
-        font-size: 1.2em;
+        padding:.15em .5em;
+        border-bottom: none;
+        font-size: 0.8em;
+        }
       }
     }
-  }
 }
+
 
 .banner {
   text-align: center;
