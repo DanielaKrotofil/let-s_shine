@@ -1,0 +1,18 @@
+button {
+    background-color: $color-darkblue;
+    color: $color-basic;
+    font-weight: 600;
+    font-family: $font-decoration;
+    padding: 1rem;
+
+    &:hover {
+        background-color: $color-darkblue;
+        color: $color-basic;
+        padding-left:.75em;
+        box-shadow:
+          0 0 0 .25em $color-black,
+          0 0 0 .5em $color-black,
+          0 0 0 .75em $color-black,
+        ;
+    }
+}
