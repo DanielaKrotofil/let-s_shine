@@ -1,0 +1,50 @@
+@import '../settngs/variables';
+@import '../settngs/rwd';
+
+
+
+.short__information {
+    .box {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.collapsible {
+    &__btn {
+        background-color: $color-darkblue;
+        color: $color-basic;
+        font-weight: 600;
+        cursor: pointer;
+        padding: 1em;
+        width: 100%;
+        border: none;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .active, .collapsible:hover {
+        background-color: $color-darkblue;
+    }
+
+    &__content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: $color-darkblue;
+
+        p {
+            text-align: center;
+        }
+
+        ul {
+            padding: 0.3rem;
+
+            li {
+
+                margin: 0.3rem;
+                padding: 0.15rem;
+            }
+        }
+    }
+}
