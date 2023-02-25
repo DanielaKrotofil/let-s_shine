@@ -1,0 +1,23 @@
+@import '../settngs/variables';
+@import '../settngs/rwd';
+@import './buttons';
+
+.contact {
+    background-color: $color-basic;
+    
+
+    .contact__form {
+        background-color: $color-basic;
+
+        h3 {
+            font-family: $font-decoration;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
