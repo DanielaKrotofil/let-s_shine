@@ -27,23 +27,35 @@
   </header>
 
   <main>
-    <section class="banner">
-      <h1 class="banner__title">Contact</h1>
-      <p class="banner_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit Ducimus mollitia iure veritatis amet soluta unde labore deleniti rerum eveniet rem!</p>
-    </section>
-
     <section class="contact">
-      <div class="contact__form">
-        <h3>Let's work together</h3>
-        <form>
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname">
 
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname">
+      <div class="ad">
+        <h1 class="ad__text">
+          Let's work <span class="ad__text">together!</span>
+        </h1>
+      </div>
+      <div class="contact__form">
+        <h3>Contact me</h3>
+        <p>Let me know what you want <br/> before we start working together</p>
+        <form>
+          <label for="fname">Name</label>
+          <input type="text" id="name" name="name" placeholder="your name">
 
           <label for="email">E-mail</label>
-          <input type="email" id="email" />
+          <input type="email" id="email" placeholder="your e-mail" />
+
+          <label for="select">Choose a type of photo</label>
+          <select id="select">
+            <option>Wedding Photography</option>
+            <option>Portraits in/out of studio</option>
+            <option>Portraits of family</option>
+            <option>Pet Photography</option>
+            <option>Product Photography</option>
+            <option>Architecture</option>
+            <option>Abstract Photography</option>
+            <option>Event Photography</option>
+            <option>Other</option>
+          </select>
 
           <label for="select">Choose an offer</label>
           <select id="select">
@@ -53,10 +65,16 @@
           </select>
 
           <label for="subject">Subject</label>
-          <textarea id="subject" name="subject"></textarea>
+          <textarea id="subject" name="subject" rows="4"></textarea>
 
-          <input type="send" value="Send">
+          <button type="submit">Kliknij</button>
 
+          <div class="info-container">
+            <div id="error-message" class="alert alert-danger d-none">
+            </div>
+            <div id="success-message" class="alert alert-success d-none">
+            </div>
+          </div>
         </form>
       </div>
     </section>
